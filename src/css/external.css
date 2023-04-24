@@ -1,6 +1,10 @@
 .section-image{
 height: 530px;
 }
+.section-image2{
+    height: 490px;
+    width: 546px;
+}
 .invalid > svg{
     margin-top: 5px; 
 }

@@ -69,7 +69,7 @@ const Signup = () => {
                     type="text"
                     autoComplete="name"
                     required
-                    placeholder="Name"
+                    placeholder="First Name"
                     className="block w-full rounded-md border-0 py-1.5 pl-4 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                   />
                 </div>
@@ -111,7 +111,7 @@ const Signup = () => {
                     type="text"
                     autoComplete="name"
                     required
-                    placeholder="company name"
+                    placeholder="Company name"
                     className="block w-full rounded-md border-0 py-1.5 pl-4 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                   />
                 </div>
@@ -130,7 +130,7 @@ const Signup = () => {
                     type="text"
                     autoComplete="lastname"
                     required
-                    placeholder="job title"
+                    placeholder="Job title"
                     className="block w-full rounded-md border-0 py-1.5 pl-4 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                   />
                 </div>
@@ -152,7 +152,7 @@ const Signup = () => {
                     type="email"
                     autoComplete="email"
                     required
-                    placeholder="email"
+                    placeholder="Email address"
                     className="block w-full rounded-md border-0 py-1.5 pl-4 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                   />
                 </div>
@@ -228,7 +228,7 @@ const Signup = () => {
                     type="email"
                     autoComplete="email"
                     required
-                    placeholder="mobile number"
+                    placeholder="Mobile Number"
                     className="block w-full rounded-md border-0 py-1.5 pl-4 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                   />
                 </div>
@@ -251,7 +251,7 @@ const Signup = () => {
                       type={conshowPassword ? "text" : "password"}
                       autoComplete="current-password"
                       required
-                      placeholder="password"
+                      placeholder=" Confirm Password"
                       onChange={confirmPassword}
                       className="block w-full rounded-md border-0 py-1.5 pl-4 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                     />
@@ -315,7 +315,7 @@ const Signup = () => {
                   htmlFor="email"
                   className="block text-sm font-medium leading-6 text-gray-900"
                 >
-           industry
+           Industry
                 </label>
                 <div className="mt-2">
                   <input
@@ -324,7 +324,7 @@ const Signup = () => {
                     type="text"
                     autoComplete="lastname"
                     required
-                    placeholder="industry"
+                    placeholder="Industry"
                     className="block w-full rounded-md border-0 py-1.5 pl-4 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                   />
                 </div>

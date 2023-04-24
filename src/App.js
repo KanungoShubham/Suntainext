@@ -7,6 +7,8 @@ import Signin from './pages/dsignin';
 import Forgotpassword from './pages/forgot-password';
 import Emaibox from './pages/email';
 import Signup from './pages/singup';
+import Signintwo from './pages/signintwo';
+import Signuptwo from './pages/signuptwo';
 import {
   Routes,
   Route,
@@ -25,6 +27,8 @@ function App() {
     <Route path='/forgotten-password' element={<Forgotpassword />} />
     <Route path='/email' element={<Emaibox />} />
     <Route path='/Signup' element={<Signup />} />
+    <Route path='/Signintwo' element={<Signintwo />} />
+    <Route path='/Signuptwo' element={<Signuptwo />} />
    
     </Routes>
   
