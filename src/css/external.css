@@ -1,0 +1,27 @@
+.section-image{
+height: 530px;
+}
+.invalid > svg{
+    margin-top: 5px; 
+}
+
+.valid > svg{
+    margin-top: 5px;
+}
+.react-tooltip{
+border-radius: 50px;
+}
+.worng{
+    color: red;
+    font-size: 14px;
+    margin-top: -10px;
+}
+.rit{
+    color: green;
+    font-size: 14px;
+    margin-top: -10px;
+}
+buttton{
+    /* background:linear-gradient(rgb(55, 65, 100), rgb(36, 50, 79), rgb(18, 32, 58)); */
+    background-image:linear-gradient(rgb(55, 65, 100), rgb(36, 50, 79), rgb(18, 32, 58)) !important;
+}
